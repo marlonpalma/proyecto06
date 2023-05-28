@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.contenedor {
+    max-width: 960px;
+    width: 100%;
+}
+
+.presentacion {
+    background-image: url(./imagenes/Sebastian.png);
+    background-position: top center;
+    width: 100%;
+    height: 545px;
+    padding-top: 22px;
+}
+
+.presentacion h2 {
+    width: 365px;
+    height: 117px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 72px;
+    margin-top: 140px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+}
+
+.sobre_mi {
+    color: white;
+    background-color: #7299FE;
+    padding-top: 7px;
+    padding-left: 41px;
+    padding-right: 45px;
+}
+
+.sobre_mi h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1D06A7;
+    text-align: center;
+}
+
+.sobre_mi p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sobre_mi button{
+    width: 187px;
+    height: 62px;
+    color: white;
+    background: #D16FFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 23px;
+    margin-bottom: 76px;
+}
+
+.mis_skills {
+    background-color: #9022FF;
+    padding: 7px 55px 90px 65px;
+}
+
+.mis_skills h2{
+    text-align: center;
+    color: #26CC4B;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mis_skills p{
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+progress{
+    width: 390px;
+    height: 40px;
+}
+
+.portafolio{
+    background-color: #FFD233;
+    padding: 7px 179px 0px 182px;
+}
+
+.portafolio h2{
+    color: #00AD84;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.portafolio img{
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.clientes{
+    background-color: #3F4E62;
+    padding: 7px 65px 0px 70px;
+}
+
+.clientes h2{
+    color: #ADFF28;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.clientes img{
+    width: 100%;
+    margin-bottom: 99px;
+}
+
+.contacto{
+    background-color: #1687A0;
+    padding: 7px 101px 27px 100px;
+}
+
+.contacto h2{
+    color: #FF1B1B;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.datos{
+    display: flex;
+}
+
+input{
+    width: 363px;
+    height: 59px;
+    margin-bottom: 33px;
+    border: 1px solid #BFBFBF;
+}
+
+textarea{
+    width: 742px;
+    height: 112px;
+    margin-bottom: 45px;
+}
+
+.enviar{
+    background-color: #233451;
+    color: white;
+    border: 0;
+    width: 167px;
+    height: 56px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px auto 76px;
+    display: block;
+}

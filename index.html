@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="contenedor">
@@ -24,8 +24,8 @@
 
       <section class="mis_skills">
         <h2>Mis Skills</h2>
-        <div>
-          <div>
+        <div class="skills-container">
+          <div class="section-1">
             <div>
               <p>HTML</p>
               <progress value="80" max="100"></progress>
@@ -39,7 +39,7 @@
               <progress value="90" max="100"></progress>
             </div>
           </div>
-          <div>
+          <div class="section-2">
             <div>
               <p>CSS</p>
               <progress value="20" max="100"></progress>
@@ -56,31 +56,33 @@
         </div>
       </section>
 
-      <section>
+      <section class="portafolio">
         <h2>Portafolio</h2>
         <img src="./imagenes/Portafolio.png" alt="portafolio">
       </section>
 
-      <section>
+      <section class="clientes">
         <h2>Clientes</h2>
         <img src="./imagenes/Clientes.png" alt="clientes">
       </section>
 
-      <section>
+      <section class="contacto">
         <h2>Contacto</h2>
         <form>
-          <div>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Email">
+          <div class="datos">
+            <div>
+              <input type="text" placeholder="Nombre">
+              <input type="email" placeholder="Email">
+            </div>
+            <div>
+              <input type="text" placeholder="Apellido">
+              <input type="telefono" placeholder="Telefono">
+            </div>
           </div>
-          <div>
-            <input type="text" placeholder="Apellido">
-            <input type="telefono" placeholder="Telefono">
-          </div>
-          <div>
+          <div class="descripcion">
             <textarea type="text" placeholder="Descripcion"></textarea>
           </div>
-          <button>Enviar</button>
+          <button class="enviar">ENVIAR</button>
         </form>
       </section>
     </div>
